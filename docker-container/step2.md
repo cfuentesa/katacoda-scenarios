@@ -12,7 +12,7 @@ Para remover un contenedor usamos el comando **docker rm**. Si el contenedor est
 
 `docker rm -f [ID_CONTENEDOR]`
 
-Para poder acceder a los servicios que entrega el contenedor. podemos mapear los puertos del contenedor con los puertos del servidor Docker, para tal efecto usamos la opción -p. Ahora lo ejecutamos mapeando el puerto 80 del contenedor con el puerto 8080 del servidor Docker:
+Para poder acceder a los servicios que entrega el contenedor. podemos mapear los puertos del contenedor con los puertos del servidor Docker, para tal efecto usamos la opci&oacute;n -p. Ahora lo ejecutamos mapeando el puerto 80 del contenedor con el puerto 8080 del servidor Docker:
 
 `docker run -d -p 8080:80 httpd`{{execute}}
 

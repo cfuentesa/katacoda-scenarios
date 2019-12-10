@@ -12,7 +12,7 @@ Para ejecutar un contenedor usamos el comando **docer run**; para el caso de la 
 
 `docker run httpd`{{execute}}
 
-Podemos ver que el terminal a quedado tomado y no podemos seguir trabajando. Para detener la  ejecución usamos la combinaci&oacute;n **(Ctrl + C)**.
+Podemos ver que el terminal a quedado tomado y no podemos seguir trabajando. Para detener la  ejecuci&oacute;n usamos la combinaci&oacute;n **(Ctrl + C)**.
 Para revisar los contenedores que est&aacute;n en ejecuci&oacute;n y detenidos usamos:
 
 `docker ps -a`{{execute}}
@@ -27,7 +27,7 @@ Esto generar&aacute; un ID random, en el cu&aacute; los 12 primeros caracteres s
 
 Para revisar el log del contenedor usamos el comando **docker logs**.
 
-`docker logs [ID_CONTENEDOR]`{{execute}}
+`docker logs [ID_CONTENEDOR]`
 
 Reemplace [ID_CONTENEDOR] pr el Id del contenedor. Podemos ejecutar algunos comandos dentro del contenedor usando el comando **docker exec**.
 
