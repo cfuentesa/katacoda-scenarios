@@ -1,0 +1,1 @@
+Felicitaciones. Ha completado la lecci&oacute;n de manejo de im&aacute;genes de Docker.

@@ -1,0 +1,1 @@
+En esta lecci&oacute;n aprender&aacute; a instalar y configurar Docker CE en Centos 7.

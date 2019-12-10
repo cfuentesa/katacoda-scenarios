@@ -1,0 +1,22 @@
+{
+	"title": "Docker",
+	"description": "Curso de Docker",
+	"icon": "fa-docker",
+	"courses": [
+		{
+			"course_id": "docker-install",
+			"title": "Instalacion Docker",
+			"description": "Aprenda a instalar Docker"
+		},
+		{
+			"course_id": "docker-images",
+			"title": "Imagenes con Docker",
+			"description": "Aprenda a manejar imagenes Docker"
+		},
+		{
+			"course_id": "docker-container",
+			"title": "Contenedores con Docker",
+			"description": "Aprenda a manejar contenedores Docker"
+		}
+	]
+}
