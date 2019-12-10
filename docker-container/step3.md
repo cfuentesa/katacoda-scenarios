@@ -21,7 +21,18 @@ Ejecutamos la im&aacute;gen especificando las variables de ambientes necesarias:
 
 `docker run -d --name mariadb -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=example -e MYSQL_USER=example_user -e MYSQL_PASSWORD=password mariadb`{{execute}}
 
-Ahora el contenedor fue creado exitosamente. Verificamos ejecutando en comando mysql y verificando el usuario creado:
+Ahora el contenedor fue creado exitosamente. Ingresamos a la consola del contenedor:
 
-`docker exec -it mariadb mysql -uexample_user -ppassword example -e "show databases;"`{{execute}}
+`docker exec -it mariadb /bin/bash`{{execute}}
 
+Verificamos ejecutando en comando mysql y verificando la BD y el usuario creado:
+
+`mysql -uroot -p`
+
+Para ver las bases de datos ejecutamos:
+
+`show databases;`
+
+Para ver los usuarios:
+
+`SELECT User FROM mysql.user;`
