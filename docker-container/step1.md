@@ -1,6 +1,6 @@
 ## Ejecutar un contenedor
 
-En este laboratorio, vamos a ejecutar un contenedor a partir de la imágen http Apache **httpd**. Primero obtenemos la im&aacute;gen que necesitamos:
+En este laboratorio, vamos a ejecutar un contenedor a partir de la im&aacute;gen de Apache **httpd**. Primero obtenemos la im&aacute;gen que necesitamos:
 
 `docker pull httpd`{{execute}}
 
