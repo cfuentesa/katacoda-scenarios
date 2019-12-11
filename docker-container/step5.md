@@ -54,12 +54,15 @@ Dockerfile es un archivo de texto que contiene una serie de comandos que instruy
 Creamos nuestro archivo:
 
 `cat <<EOT >> Dockerfile`{{execute}}
+
 `FROM httpd`{{execute}}
+
 `RUN echo "Hola nuevamente" > /usr/local/apache2/htdocs/index.html`{{execute}}
+
 `EOT`{{execute}}
 
 Para crear la nueva im&aacute;gen, usamos el comando **build**:
 
-`docker build -t custom_httpd2`{{execute}}
+`docker build -t custom_httpd2 .`{{execute}}
 
 Ejecute la nueva im&aacute;gen y pruebe con el comando **curl**.
