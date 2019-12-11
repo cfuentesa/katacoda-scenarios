@@ -5,13 +5,13 @@ Usaremos la imagen mariadb, la cual es la versi&oacute;n open source de MySQL. O
 
 `docker pull mariadb`{{execute}}
 
-Tratemos de ejecutar la im&aacue;gen:
+Tratemos de ejecutar la im&aacute;gen:
 
 `docker run mariadb`{{execute}}
 
 Como podemos ver, la ejecuci&oacute;n falla, ya que la im&aacute;gen requiere de ciertas variables de ambiente:
 
-| Variable | Descripción |
+| Variable | Descripci&oacute;n |
 | ------ | ------ |
 | MYSQL_ROOT_PASSWORD | Esta variable es obligatoria y especifica la password del superusuario |
 | MYSQL_DATABASE | Variable opcional y especifica el nombre de la base qie se desea crear |
@@ -27,7 +27,7 @@ Ahora el contenedor fue creado exitosamente. Ingresamos a la consola del contene
 
 Verificamos ejecutando en comando mysql y verificando la BD y el usuario creado:
 
-`mysql -uroot -p`
+`mysql -u root -p`
 
 Para ver las bases de datos ejecutamos:
 
